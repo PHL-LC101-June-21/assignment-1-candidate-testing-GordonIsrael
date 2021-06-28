@@ -22,9 +22,13 @@ console.log("Welcome aboard, " + candidateName + "!");
 function askQuestion() {
   // TODO 1.2b: Ask candidate the question and assign the response as candidateAnswer //
 console.log(question); 
-if (question = correctAnswer) {
-  console.log("This is Right!")}
-
+let candidateAnswer = ("");
+let correctAnswer = true
+if (candidateAnswer = !correctAnswer) {
+  console.log("Not Quite");
+} else {
+  console.log("Complete")
+}
 }
 
 function gradeQuiz(candidateAnswers) {
